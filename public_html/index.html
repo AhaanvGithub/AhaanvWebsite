@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Ahaan Verma
+        </title>
+    </head>
+	<style type="text/css">
+        html, 
+        body {
+            height: 100%;
+        }
+	</style>
+    <body 
+		  onload=display_ct() 
+		  style="text-align: center; 
+				 background-color: #71AAA9; 
+				 background-image: url('setup_edited_again.png'); 
+				 background-size: cover; 
+				 background-repeat: no-repeat;">
+        <script type="text/javascript"> 
+            function display_c() {
+                var refresh=1000;
+                mytime = setTimeout('display_ct()', refresh)
+            }
+            function display_ct() {
+                var x = new Date()
+                var x1 = x.toLocaleString('en-US', { timeZone: 'Asia/Manila' });// changing the display to UTC string
+                document.getElementById('ct').innerHTML = "Time in Manila, Philippines: " + x1;
+                tt = display_c();
+            }
+            </script>
+        <p id="ct">0</p>
+        <i>
+            <strong>
+                <h1 style="
+                    text-align: center;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translateX(-50%) translateY(-260%);
+                    font-size:70px;
+                    margin-top:0px;">
+                    ahaan verma
+                </h1>
+            </strong>
+        </i>
+        <a href="discord.html" title="Coffeelicious#8015">
+            <img src="resized_discord.png" style="
+                position:fixed;
+                right:10px;
+                bottom: 10px ">
+            </img>
+        </a>
+        <a href="https://www.twitch.tv/codingcoffeelive/about" title="codingcoffeelive">
+            <img src="resized_twitch.png" style="
+                position:fixed;
+                right:68px;
+                bottom: 10px" >
+            </img>
+        </a>
+        <a href="https://github.com/AhaanvGithub" title="Github">
+            <img src="resized_github.png" style="
+                position:fixed;
+                right:126px;
+                bottom: 10px" >
+            </img>
+        </a>
+        <a href="https://twitter.com/CoffeeIicious" title="Twitter">
+            <img src="resized_twitter.png" style="
+                position:fixed;
+                right:184px;
+                bottom: 10px" >
+            </img>
+        </a>
+        <a href="https://github.com/CoffeeliciousGithub/Competitive-Programs">
+            <img src="hackerrank.png" style="
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-110%);
+                font-size:70px;
+                margin-top:0px;">
+        </a>
+        <a href="https://github.com/AhaanvGithub/PythonCodecademyProjs">
+            <img src="python.png" style="
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-0%);
+                font-size:70px;
+                margin-top:0px;">
+        </a>
+    </body>
+</html>
